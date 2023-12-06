@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cea13cc-c654-4203-9874-470b18404888" name="Changes" comment="DemobellatrixHA">
+      <change afterPath="$PROJECT_DIR$/allure-results/0809bc9b-e23d-4e67-9e47-c213c2d46506-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0c976c9c-3d78-4506-9ae4-baeb6c7aab70-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1ef25b0d-43a4-4b09-a6c0-b8967cac07c8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3f58e493-397c-451d-97e4-ea6ce1ac3347-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/621f3e09-b510-465f-a01c-5468675f2b40-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6c09a4ca-0d84-44d4-b3cd-c770f43307d5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7bb42004-4492-49c7-8408-d974cfcbccdc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7ceb05f1-4b05-4373-b315-900ca49bfb11-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7f00e3fe-93e8-43aa-baa1-7d2b2dc6c135-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aa835a76-e95f-4115-96d2-e2013e6c3b14-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d059457c-cf03-4976-8435-5ba77523311e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e3087eb1-1a66-427e-aaf8-5eb2aec710fb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e502df30-7a42-42ea-8935-1130e4fd0e34-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f85a0594-565f-466e-918f-0494572629d1-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CartStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CartStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Locator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/FeatureCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/FeatureCart.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +77,30 @@
       <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix_HA\src\test" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="RunnerCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix_HA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.RunnerCart" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RunnerCart" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701853525449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DemobellatrixHA">
+      <created>1701867292376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701867292377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
