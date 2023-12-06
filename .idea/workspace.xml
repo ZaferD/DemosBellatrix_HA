@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cea13cc-c654-4203-9874-470b18404888" name="Changes" comment="DemobellatrixHA">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Locator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Locator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +76,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701770567337</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DemobellatrixHA">
+      <created>1701853525449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701853525449</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Demobellatrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demobellatrix" />
+    <MESSAGE value="DemobellatrixHA" />
+    <option name="LAST_COMMIT_MESSAGE" value="DemobellatrixHA" />
   </component>
 </project>
