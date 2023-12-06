@@ -7,7 +7,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Driver {
 
+
     private static WebDriver driver = null;
+
+    public static WebDriver getDriver(){
+        return getDriver("chrome");
+    }
+
+
+
     public static WebDriver getDriver(String browser){
         if (driver == null)
             switch (browser.toLowerCase().trim()){
