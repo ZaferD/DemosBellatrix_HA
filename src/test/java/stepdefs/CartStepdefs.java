@@ -13,7 +13,7 @@ import org.testng.Assert;
 
 import static stepdefs.Locator.*;
 
-public class CartStepdefs extends BaseSteps{
+public class CartStepdefs extends BaseSteps {
     @Given("user on homepage")
     public void userOnHomepage() {
         driver.navigate().to(url);
@@ -22,7 +22,7 @@ public class CartStepdefs extends BaseSteps{
 
     @When("user add the product {string} to the cart")
     public void userAddTheProductToTheCart(String text) {
-        sendKeysEnter(lSearch,text);
+        sendKeysEnter(lSearch, text);
         click(lF9AddToCart);
 
     }
@@ -36,9 +36,12 @@ public class CartStepdefs extends BaseSteps{
     @Then("the product {string} should be in Cart")
     public void theProductShouldBeInCart(String text) {
 
-        WebElement element = driver.findElement(lAssertF9);
-        Assert.assertEquals(element.getText().toLowerCase(),text);
-       // By lAssertF9 = By.xpath("//a[text()='Falcon 9']")
+        isTextVisible(text);
+        //WebElement element = driver.findElement(lAssertF9);
+
+
+        //Assert.assertEquals(element.getText().toLowerCase(), text);
+
 
     }
 }

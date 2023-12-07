@@ -44,38 +44,55 @@ public class BaseSteps {
     public void sleep(int num) {
 
         try {
-            Thread.sleep(num*1000);
+            Thread.sleep(num * 1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
     }
 
-    public void sendKeys(By locator, CharSequence...texts){
+    public void sendKeys(By locator, CharSequence... texts) {
 
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         sendKeys(element, texts);
 
     }
 
-    public void sendKeys(WebElement element, CharSequence...texts){
+    public void sendKeys(WebElement element, CharSequence... texts) {
 
         element.clear();
         element.sendKeys(texts);
 
     }
 
-    public void sendKeysEnter(By locator, CharSequence...texts){
+    public void sendKeysEnter(By locator, CharSequence... texts) {
 
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         sendKeys(element, texts);
         new Actions(driver).keyDown(Keys.ENTER).perform();
     }
 
-    public void visibilityOfLocator(By locator){
+    public void visibilityOfLocator(By locator) {
 
-       wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+
+    public boolean isTextVisible(String text) {
+
+        String str = "//a[text()='%s']";
+
+        By Llocator = By.xpath(String.format(str, text));
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(Llocator));
+
+        boolean a = false;
+
+        if (element.getText().contains(text)) {
+            a = true;
+        }
+
+        return a;
+    }
+
+
 
 }
