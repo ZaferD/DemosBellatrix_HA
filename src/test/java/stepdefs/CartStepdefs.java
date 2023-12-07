@@ -4,10 +4,12 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
 
 import static stepdefs.Locator.*;
 
@@ -20,19 +22,23 @@ public class CartStepdefs extends BaseSteps{
 
     @When("user add the product {string} to the cart")
     public void userAddTheProductToTheCart(String text) {
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(lSearch));
-        element.sendKeys(text);
-        new Actions(driver).keyDown(Keys.ENTER).perform();
-        click(addToCart(text));
+        sendKeysEnter(lSearch,text);
+        click(lF9AddToCart);
 
     }
 
     @And("user click to Cart")
     public void userClickToCart() {
+        click(lViewCart);
 
     }
 
     @Then("the product {string} should be in Cart")
-    public void theProductShouldBeInCart(String arg0) {
+    public void theProductShouldBeInCart(String text) {
+
+        WebElement element = driver.findElement(lAssertF9);
+        Assert.assertEquals(element.getText().toLowerCase(),text);
+       // By lAssertF9 = By.xpath("//a[text()='Falcon 9']")
+
     }
 }

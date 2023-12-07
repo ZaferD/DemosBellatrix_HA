@@ -2,8 +2,10 @@ package stepdefs;
 
 import driver.Driver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,38 +28,54 @@ public class BaseSteps {
     }
 
 
-    public void click(WebElement element) {
-        element.click();
+    public void click(By locator) {
+
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        click(element);
 
     }
 
+    public void click(WebElement element) {
 
-    public WebElement addToCart(String s) {
+        wait.until(ExpectedConditions.visibilityOf(element)).click();
 
-        // By lAddToCarts = By.xpath("//a[text()='Add to cart']['"+ +"']"); bu locator -Locator Enum- classindan alinmistir
-        // String addedToCart = "//li//*[contains(text(),'%s')]"; bu String -Locator Enum- classindan alinmistir
+    }
 
-        List<WebElement> elements = driver.findElements(lAddToCarts);
-        String str = wantedStr;
-        By locator = By.xpath(String.format(str, s));
+    public void sleep(int num) {
 
-        WebElement element = null;
-        int counter = 0;
-
-        String addCrt = "(//*[text()='Add to cart'])['" + counter + "']";
-
-        for (int i = 0; i < elements.size(); i++) {
-
-            if (driver.findElement(locator).getText().contains(s)) {
-                By loc = By.xpath(String.format(addCrt, counter));
-                element = wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
-                break;
-            } else counter++;
-
+        try {
+            Thread.sleep(num*1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
+    }
 
-        return element;
+    public void sendKeys(By locator, CharSequence...texts){
+
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        sendKeys(element, texts);
+
+    }
+
+    public void sendKeys(WebElement element, CharSequence...texts){
+
+        element.clear();
+        element.sendKeys(texts);
+
+    }
+
+    public void sendKeysEnter(By locator, CharSequence...texts){
+
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        sendKeys(element, texts);
+        new Actions(driver).keyDown(Keys.ENTER).perform();
+    }
+
+    public void visibilityOfLocator(By locator){
+
+       wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+
     }
 
 }
