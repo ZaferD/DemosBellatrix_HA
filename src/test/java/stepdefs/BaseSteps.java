@@ -93,6 +93,56 @@ public class BaseSteps {
         return a;
     }
 
+    public WebElement addToCart(String s) {
 
 
-}
+        List<WebElement> elements = driver.findElements(lProductNames);
+
+
+        int counter = 0;
+
+
+        for (WebElement element : elements) {
+
+            if (!element.getText().contains("Proton-M")){
+                counter++;
+
+                if (element.getText().contains(s)) {
+                    break;
+                }
+
+            }
+
+        }
+
+        By locator = By.xpath("(//*[text()='Add to cart'])[" + counter + "]");
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return element;
+
+    }
+
+    public void addProductToCart(String str){
+
+        List<WebElement> elements = driver.findElements(lProductNames);
+
+        for (WebElement element : elements) {
+
+            List<WebElement> buttonAddToCart = driver.findElements(By.xpath("//*[text()='Add to cart']"));
+
+                if (buttonAddToCart.isEmpty()) {
+
+
+                } else {
+
+                click(element);
+                }
+
+            }
+
+        }
+
+
+
+
+    }
+

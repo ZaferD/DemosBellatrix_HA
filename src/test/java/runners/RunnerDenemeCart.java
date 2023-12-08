@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 
 )
 
-public class DenemeCart extends AbstractTestNGCucumberTests {
+public class RunnerDenemeCart extends AbstractTestNGCucumberTests {
 
 
 }

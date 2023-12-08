@@ -1,27 +1,27 @@
-public WebElement addToCart(String s) {
+ public WebElement addToCart(String s) {
 
-        // By lAddToCarts = By.xpath("//a[text()='Add to cart']['"+ +"']"); bu locator -Locator Enum- classindan alinmistir
-        // String addedToCart = "//li//*[contains(text(),'%s')]"; bu String -Locator Enum- classindan alinmistir
 
-        List<WebElement> elements = driver.findElements(lAddToCarts);
-        String str = wantedStr;
-        By locator = By.xpath(String.format(str, s));
+        List<WebElement> elements = driver.findElements(lProductNames);
 
-        WebElement element = null;
+
         int counter = 0;
 
-        String addCrt = "(//*[text()='Add to cart'])['" + counter + "']";
 
-        for (int i = 0; i < elements.size(); i++) {
+        for (WebElement element : elements) {
 
-            if (driver.findElement(locator).getText().contains(s)) {
-                By loc = By.xpath(String.format(addCrt, counter));
-                element = wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
-                break;
-            } else counter++;
+            if (!element.getText().contains("Proton-M")){
+                counter++;
+
+                if (element.getText().contains(s)) {
+                    break;
+                }
+
+            }
 
         }
 
-
+        By locator = By.xpath("(//*[text()='Add to cart'])[" + counter + "]");
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return element;
+
     }

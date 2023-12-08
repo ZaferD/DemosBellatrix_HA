@@ -5,76 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cea13cc-c654-4203-9874-470b18404888" name="Changes" comment="DemobellatrixHA">
-      <change afterPath="$PROJECT_DIR$/allure-results/0496aacd-e930-4e77-8ab8-5dc4af6b0f47-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/04b6d129-ac1e-47f6-8f4d-02f111ba8ab7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/07b7ca52-d744-419c-a05d-1e2f5d5997af-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/091aafde-6236-45bf-8dd6-ddc2e3336881-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0a5fb5c4-04e7-45ea-a22e-7406967728d4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1fdf4dc6-2326-484c-a413-800f2e66c37c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2136e1a8-b247-4589-8e39-8328231298ac-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/27e3b6ca-0f71-400f-a641-6199f6dc5ef3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2ad97085-261c-4d24-b176-52da4bf7292a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/312c0bc9-e375-4be2-83a9-3e4903970170-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/31b1aacf-97e9-4faa-8dc9-4d184aecedf9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/323c015e-5f2a-490b-ae82-607af52d35bb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/34ef7eb7-b700-49cf-b76d-6162589ddd11-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/358df5e0-b869-4160-a87b-e5c521d683f7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3741c534-2138-49a1-af69-656c88df28f2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3dbd8803-1226-4b6f-832e-3e48aad8c179-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3f373874-e697-44ff-b355-48da624bb316-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/43d3982e-eb76-4e8f-86c2-8559c0525680-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4455075a-091f-458b-9ba0-a571cea8f90b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4e1d0095-96c1-4ac0-9431-eb45a9507e65-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/514e4835-05fc-4f1d-a411-7e93a58987ed-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/51d2f40d-15e5-46d7-8292-7be4a8b23f72-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5a1a89fd-39aa-48a3-905f-8f670f08f080-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/61206ebb-5441-4a69-a429-ed47da254cf2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/626413df-bc86-40df-b63e-7e9f63ba3ddc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/67075b38-7d29-4fb5-aab7-877f251e7aae-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6b9c24d4-7dd7-40a7-a3bc-d47ae6b54cad-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/70678c2e-36b5-4225-a050-c5cf3dc11f26-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/71220fcf-b99a-43dc-bd05-3baafa872218-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7299f414-c67f-4ea9-97ae-3c7efc3e0be8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/77c501df-09c4-488a-9d83-bae26e84965a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/889e5512-b2d9-4dcc-8a00-2989ad3e9dee-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/88c91433-36fa-480e-8993-610272c36625-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/92019d77-643a-48b1-8edd-4e16a891f539-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/99d963be-11cd-4a31-9d89-c6669ada0a7d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9a8bea27-25c9-43db-ad21-7a09dc9cc60f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/abb91983-bdd3-4ed6-a70a-b60c38a874bf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/af3d970f-bf01-4e11-ada7-598b815d211c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b16a284a-19cb-45d7-84a2-64810be323ba-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b2b09ba9-7016-4bfd-b945-837ba85df14d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b55a346b-3913-481b-b817-f587941d2804-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b6a9b312-2474-4a36-9d97-34bf1739f927-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b89630e8-896d-419c-9609-d0c5ee435f2e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bb06995e-5377-4fe5-a2c1-1d0780196b57-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bbb7adc1-ba6f-403e-b1f3-5ee10a0f1b63-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c0d8f106-b2cf-451b-b39f-7fd1d828efe2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c59f32b5-cb02-4f20-8a17-9115c8c33375-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c9f52c53-b976-4065-9bbc-94edaa0b0a50-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cc1f1fb8-a527-4fa3-9e6a-1b2b88470eb0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cefe6f61-14f9-4408-a3d8-c17bdeec288f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cfe738f6-83aa-403a-935e-19db8f8bcc53-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d254a7c1-45b0-4746-afc4-74dab8161282-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d76b8562-659e-4481-8092-17d0094e7e15-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/dcbb72ea-3e77-4f0c-bba3-5ef7375016db-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e2c8709c-cb50-4369-815e-be44ce73c262-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e3a662b0-aa37-40e8-94ee-164d0500bfbe-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e725b9ac-d301-4ab0-8539-cb7abc3c789e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e809dd21-2cb5-40ad-bed0-794bd431b283-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fe222eb9-52ac-4199-9b55-dea0359ac609-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ff9c7463-56b2-4acc-83d1-3502c080df1e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/DenemeCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/DenemeStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0d4323f6-e623-4f85-941d-dc1d531afebe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0ea02c56-b820-4ace-a3de-27fcfb26287b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2cf3668c-de18-4ba6-980c-f50b129cf71a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3bed311e-1754-480b-a4c1-cc8aa4f1f279-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/455bd024-8d76-4b40-941a-f1ccfc26f06f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4f01dda9-4ed9-4e87-8422-13dd69c49918-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7c03124d-849b-443c-900b-6e2885c2d009-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9ce36b33-bb0d-477b-892f-bf22448af01d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a93399e3-9921-4bbe-b18f-663737c996f9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bc3e8a90-f6f0-4f83-a1e0-72f9ea5b6156-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/FeatureDeneme.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/DenemeCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerDenemeCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CartStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CartStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/DenemeCodes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/DenemeCodes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/DenemeStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/DenemeStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Locator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/FeatureCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/FeatureCart.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +75,7 @@
       <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix_HA\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DenemeCart">
+  <component name="RunManager" selected="TestNG.RunnerDenemeCart">
     <configuration name="Scenario: Add to Cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/FeatureDeneme.feature" />
@@ -144,23 +92,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DenemeCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix_HA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.DenemeCart" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,9 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnerDenemeCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix_HA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.RunnerDenemeCart" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DenemeCart" />
+        <item itemvalue="TestNG.RunnerDenemeCart" />
         <item itemvalue="Cucumber Java.Scenario: Add to Cart" />
         <item itemvalue="TestNG.RunnerCart" />
       </list>
@@ -234,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701939563765</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DemobellatrixHA">
+      <created>1701961508517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701961508517</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

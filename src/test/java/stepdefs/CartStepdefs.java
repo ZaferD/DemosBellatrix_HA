@@ -36,11 +36,11 @@ public class CartStepdefs extends BaseSteps {
     @Then("the product {string} should be in Cart")
     public void theProductShouldBeInCart(String text) {
 
-        isTextVisible(text);
-        //WebElement element = driver.findElement(lAssertF9);
+        //isTextVisible(text);
+        WebElement element = driver.findElement(lAssertF9);
 
 
-        //Assert.assertEquals(element.getText().toLowerCase(), text);
+        Assert.assertEquals(element.getText().toLowerCase(), text);
 
 
     }

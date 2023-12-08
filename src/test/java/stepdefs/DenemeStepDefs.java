@@ -6,6 +6,7 @@ public class DenemeStepDefs extends BaseSteps{
     @When("user add the product {string} to the cart.")
     public void userAddTheProductToTheCart(String text) {
 
-       // click(addToCart(text));
+        //click(addToCart(text));
+        addProductToCart(text);
     }
 }
