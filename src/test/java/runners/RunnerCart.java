@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"stepdefs"},
         plugin = {"pretty",
                 "html:target/cucumber/cucumber.html",
-                "json:target/cucumber/cucumber1.json",
+                "json:target/cucumber/cucumber.json",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         }
 
