@@ -1,10 +1,7 @@
 package stepdefs;
 
 import driver.Driver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,6 +10,8 @@ import static stepdefs.Locator.*;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.Locale;
+import java.util.NoSuchElementException;
 
 public class BaseSteps {
 
@@ -93,56 +92,45 @@ public class BaseSteps {
         return a;
     }
 
-    public WebElement addToCart(String s) {
+//    public WebElement addToCart(String s) {
+//
+//
+//        List<WebElement> elements = driver.findElements(lProductNames);
+//
+//
+//        int counter = 0;
+//
+//
+//        for (WebElement element : elements) {
+//
+//            if (!element.getText().contains("Proton-M")){
+//                counter++;
+//
+//                if (element.getText().contains(s)) {
+//                    break;
+//                }
+//
+//            }
+//
+//        }
+//
+//        By locator = By.xpath("(//*[text()='Add to cart'])[" + counter + "]");
+//        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+//        return element;
+//
+//    }
 
+    public void addProductToCart(String str) {
 
-        List<WebElement> elements = driver.findElements(lProductNames);
+        try {
+            WebElement buttonAddToCart = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@aria-label,'" + str + "') and contains(@aria-label,'cart')]")));
+            click(buttonAddToCart);
 
-
-        int counter = 0;
-
-
-        for (WebElement element : elements) {
-
-            if (!element.getText().contains("Proton-M")){
-                counter++;
-
-                if (element.getText().contains(s)) {
-                    break;
-                }
-
-            }
-
+        } catch (Exception e) {
+            System.out.println("Hata: " + str + " sepete eklenemedi. Sepete ekle butonu bulunamadı.");
         }
-
-        By locator = By.xpath("(//*[text()='Add to cart'])[" + counter + "]");
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-        return element;
-
     }
 
-    public void addProductToCart(String str){
 
-        List<WebElement> elements = driver.findElements(lProductNames);
-
-        for (WebElement element : elements) {
-
-            List<WebElement> buttonAddToCart = driver.findElements(By.xpath("//*[text()='Add to cart']"));
-
-                if (buttonAddToCart.isEmpty()) {
-
-
-                } else {
-
-                click(element);
-                }
-
-            }
-
-        }
-
-
-
-
-    }
+}
 
